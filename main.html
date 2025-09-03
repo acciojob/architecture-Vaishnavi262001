@@ -1,16 +1,119 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <title>Architecture Webpage</title>
+  <style>
+    /* General Page Styling */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f9;
+      margin: 0;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+    }
+
+    /* Main Container */
+    .container {
+      width: 1100px;
+      background: #ffffff;
+      padding: 20px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+      border-radius: 12px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    /* Image Container */
+    .imageContainer {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .imageContainer img {
+      max-width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    /* Table Styling */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+
+    td {
+      padding: 15px;
+      text-align: center;
+      vertical-align: middle;
+      border: 1px solid #ddd;
+    }
+
+    td img {
+      width: 180px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    }
+
+    td.text-col {
+      width: 600px;
+      font-size: 16px;
+      line-height: 1.5;
+      color: #444;
+      text-align: justify;
+    }
+  </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+  <div class="container">
+    <h1>Architectural Wonders</h1>
 
+    <!-- Image Container -->
+    <div class="imageContainer">
+      <img src="https://t3.ftcdn.net/jpg/02/74/39/90/360_F_274399079_Y1TconohBJkNFe2AlfYKyzpXKJWa0WGP.jpg" alt="Architecture Main">
+    </div>
+
+    <!-- Table Section -->
+    <table>
+      <tr>
+        <td width="200">
+          <img src="https://as2.ftcdn.net/v2/jpg/02/31/69/05/1000_F_231690594_1xpuGVGkzsPIvIVRyRkGLY5Ze11d3yev.jpg" alt="Eiffel Tower">
+        </td>
+        <td class="text-col" width="600">
+          The Eiffel Tower in Paris is one of the most recognized structures in the world. 
+          Built for the 1889 World’s Fair, it showcases iron lattice architecture 
+          and remains a global cultural icon of France.
+        </td>
+        <td width="200">
+          <img src="https://amazingarchitecture.com/storage/6540/skecth-drawing-architecture-copy.jpg" alt="Colosseum">
+        </td>
+      </tr>
+
+      <tr>
+        <td width="200">
+          <img src="https://amazingarchitecture.com/storage/6540/skecth-drawing-architecture-copy.jpg" alt="Sydney Opera House">
+			<div class="img-text"><b>HousePlans.com</b>The largest source for quality affordable ready-made house plans <a href="#">learn more</a></div>
+        </td>
+        <td class="text-col" width="600">
+<h2>Obejtive</h2>
+          The Sydney Opera House is a masterpiece of modern architecture. 
+          Its sail-like design stands proudly on Sydney Harbour and 
+          represents creativity and innovation in structural engineering.
+        </td>
+        <td width="200">
+          <img src="https://amazingarchitecture.com/storage/6540/skecth-drawing-architecture-copy.jpg" alt="Great Wall">
+			<div class="img-text"><b>Green Floor</b>FreeGreen.com offers both sponsered and non-sponsered floor plans<a href="#">learn more</a>
+        </td>
+      </tr>
+    </table>
+  </div>
 </body>
-
 </html>
